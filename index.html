@@ -1,0 +1,62 @@
+<!DOCTYPE html>   <!--느낌표후 탭버튼을 누르면 웹을 만들기위한 기초적인 작업이 끝남-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>아이유</title>
+    <style>
+        h1{
+            background-color: lightgoldenrodyellow;            
+        }
+        .iu {
+            background-color: red;
+        }
+        #id {
+            font-size: 30px; font-style: italic;
+            background-color: teal;
+        }
+        .like{
+            font-size: 40px;
+        }
+    </style>   
+    <!--타이틀은 웹의 제목을 담당-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+</head>
+<body>  <!--body는 웹의 내용을 담당-->
+    <p>포지션 고정</p>    
+    <img width="700" height="500" src="./다운로드.jpeg" alt="아이유사진이있던것..">
+    <h1 style="color:#f3ebeb; background-color:#461d1d;border: radius 50px;;border: 10px solid red;">아이유</h1>
+    <h1 class='iu'>아이유</h1>
+    <p id='iu'>아이디를 적용해볼 p태그</p>
+    <p class="iu">클래스를 적용해볼 p태그</p>
+    <p class="iu like">클래스를 두 개 적용해볼 p 태그</p>
+    <pre style='background-image:url(./다운로드.jpeg);height: 100pt;background-repeat: no-repeat;background-size: cover;'>아이유는 정말 너무 이쁘고 요정이 아닐까 
+
+여러분 이번에 신곡나온거 들어주세요.</pre>
+    <a href="https://www.instagram.com/dlwlrma/?hl=ko">인스타그램</a> 
+    <!--a href 는 하이퍼링크-->
+    <button type="button" class="btn btn-info" onclick="location.href='https://www.instagram.com/dlwlrma/?hl=ko';">Info</button>
+<!--border-radius 는 원형을 주는것 -->
+    <ol>
+        <li>청춘불패</li>  <!--ol은 숫자순으로 정렬 ul은 동그라미로 정렬-->
+        <li>기타등등</li>
+    </ol>
+    <table border="2">
+        <tr>
+            <td rowspan="2">1</td>
+            <td>2</td>
+            <td rowspan="2">3</td>
+        </tr>
+        <tr>
+            <td>4</td>
+        </tr>
+        <tr>
+            <td colspan="3">3</td>
+        </tr>
+    </table>
+
+    <iframe width="700" height="500" src="https://www.youtube.com/embed/TgOu00Mf3kI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <!--src(속성이름) 라는 인자는 주소를 입력한다는 것--> <!--width 는 가로크기 설정 height 는 세로크기 설정-->
+</body>
+</html>
